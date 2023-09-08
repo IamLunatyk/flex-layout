@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff72ff, #7b64ff);
+            margin: 2rem;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 2%;
+        }
+        .box {
+            background-color: rgba(255, 255, 255, 0.3);
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            align-items: center;
+            justify-content: center;
+            padding: 1%;
+            margin: 1%;
+            gap: 1%;
+            text-align: center;
+        }
+        .narrow {
+            height: 10rem;
+            width: 15%;
+        }
+
+        .long {
+            height: 5rem;
+            width: 25%;
+        }
+        
+        .wide {
+            height: 3rem;
+            width: 40%;
+        }
+
+        .verywide {
+            height: 5rem;
+            width: 100%;
+        }
+        
+
+        p {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="box narrow"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box narrow"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box narrow"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box narrow"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box long"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box long"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box long"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box wide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box wide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+        <div class="box verywide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p></div>
+
+    </div>
+</body>
+</html>
